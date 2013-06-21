@@ -8,17 +8,17 @@
     <!-- Database folder path -->
     <!-- Required -->
     <!-- Path to the database folder in source control. If it is the build VCS root, then enter: . -->
-    <scriptsFolder></scriptsFolder>
+    <scriptsFolder>.</scriptsFolder>
 
     <!-- Database server -->
     <!-- Optional -->
     <!-- For example sql01.example.com\sql2008 -->
-    <databaseServer></databaseServer>
+    <databaseServer>192.168.2.100\sql2008r2</databaseServer>
 
     <!-- Target database name -->
     <!-- Optional. Requires DatabaseServer if set -->
     <!-- The target database to keep up to date with the changes in source control. This must be an existing database on the server; the runner does not create the database for you. -->
-    <databaseName></databaseName>
+    <databaseName>tlscompare2</databaseName>
 
     <!-- Windows authentication -->
     <!-- Optional -->
@@ -27,11 +27,11 @@
 
     <!-- SQL username -->
     <!-- Required if DatabaseServer is set and Windows authentication is false -->
-    <databaseUserName></databaseUserName>
+    <databaseUserName>common</databaseUserName>
 
     <!-- SQL password -->
     <!-- Required if DatabaseServer is set and Windows authentication is false -->
-    <databasePassword></databasePassword>
+    <databasePassword>k25#ap-R2-1</databasePassword>
 
     <!-- NuGet package name -->
     <!-- Optional. Requires PackageVersion if set -->
